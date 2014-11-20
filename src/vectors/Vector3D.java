@@ -87,7 +87,7 @@ public class Vector3D {
     public Vector3D crossProduct(Vector3D anotherVector) {
         double newX=y*anotherVector.z-z*anotherVector.y;
         double newY=z*anotherVector.x-x*anotherVector.z;
-        double newZ=x*anotherVector.z-z*anotherVector.x;
+        double newZ=x*anotherVector.y-y*anotherVector.x;
         return new Vector3D(newX, newY, newZ);
     }//public Vector3D crossProduct
     

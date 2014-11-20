@@ -90,7 +90,7 @@ public class Vector3DTest {
         System.out.println("crossProduct");
         Vector3D anotherVector = new Vector3D(2, 3, 4);
         Vector3D instance = new Vector3D(2, 3, 4);
-        Vector3D expResult = new Vector3D(3*4-4*3, 4*2-2*4, 2*4-4*2);
+        Vector3D expResult = new Vector3D(3*4-4*3, 4*2-2*4, 2*3-3*2);
         Vector3D result = instance.crossProduct(anotherVector);
         assertEquals(expResult, result);
         
