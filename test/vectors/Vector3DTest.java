@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author student
+ * @author Przemysław Chudzik
  */
 public class Vector3DTest {
     
